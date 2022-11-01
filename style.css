@@ -1,0 +1,354 @@
+*{
+    font-family: 'Cormorant', serif;
+
+}
+
+*a{
+    font-family: 'Cardo', serif;
+
+} 
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  
+  
+  .header {
+    min-height: 100vh;
+    background-image: url("https://bestgif.su/_ph/46/2/620089982.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Cormorant', serif;
+
+
+    
+  }
+  
+  .header img{
+    height: 80%;
+    margin: 2px;
+    width: 100px;
+    border-radius: 25px 30px 0px 0px;
+    
+  
+  }
+  
+  .menu ul,li{
+    margin: 0;
+    padding: 0;
+  
+  }
+  .menu ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+  
+  }
+  
+  .menu li{
+    
+    width: auto;
+  
+  }
+  
+  
+  .menu a{
+    background-color: aliceblue;
+    color: #000000;
+    border: 1px solid #000000;
+    display: block;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 13px sans-serif;
+  
+  }
+  
+  .menu li:hover a{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 1;
+  
+  }
+  
+  
+  .main{
+    background-color: #ffeb94;
+    display: flex;
+    width: 100%;
+    
+
+  
+  }
+  
+  
+  .navigation {
+    background-color: #ffbfbf;
+    width: 100%;
+    font-family: 'Cardo', serif;
+  }
+  
+  .content {
+    background-color:  #ffeb94;
+   
+    flex: 70%;
+    display: flex;
+   
+    
+  }
+  
+  .content .post{
+    display: flex;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(240, 255, 255, 0.61);
+    flex-direction: column;
+    flex: 100%;
+    align-items: center;
+    
+  }
+  
+  .content .post .TEXTPOST img{
+    width: 30%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .content .post img{
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+  
+  .content .post .text{
+    width: 80%;
+  
+  }
+
+  .TEXTPOST {
+      display: flex;
+  }
+  .TEXTPOST img {
+    height: 300px;
+}
+  
+  
+  .sidebar {
+    background: #ffbfbf;
+    height: 100;
+    flex: 20%;
+    
+  }
+  
+  
+  
+  .footer {
+    background-color:  #ffeb94;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .TEXTS{
+    display: flex;
+    flex: 60%;
+  }
+    
+  .footer img{
+    width: 300px;
+    height: 300%;
+    margin: 10px;
+    border-radius: 20px;
+  
+  }
+  
+  .TEXTS .text{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgba(240, 255, 255, 0.61);
+  
+  }
+  
+  #menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    font-family: 'Cardo', serif;
+  }
+  
+  
+  #menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+  
+  }
+  
+  #menu1 >ul::after{
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+    content: " ";
+  
+  }
+  
+  #menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    height: auto;
+  
+  }
+  
+  #menu1 ul li a{
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 36px;
+    background-color: #ffbfbf;
+    color: #000000;
+    border: solid 2px #000000;
+  
+  
+  }
+  
+  #menu1 ul li ul{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    width: 100%;
+    background-color: #ffbfbf9a;
+  
+  
+  }
+  
+  #menu1 ul li:hover ul{
+    display: block;
+  
+  }
+  
+  #menu1 ul li ul li{
+    float: none;
+    width: 100%;
+  
+  }
+  
+  #menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: 36px;
+    background-color: #ffbfbf9a;
+    color: #000000;
+    border: solid 2px #000000;
+  
+  
+  
+  }
+  
+
+  .ll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid #000000;
+
+}
+
+.niz{
+    
+ display: flex;
+
+}
+
+.bar{
+    height: 8px;
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff9e1;
+    opacity: .9;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+.bar :hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+
+}
+.slide{
+    width: 25%;
+    transition:all .6s ease;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left:0 ;
+}
+#r2:checked ~ .s1{
+    margin-left:-25% ;
+}
+#r3:checked ~ .s1{
+    margin-left:-50% ;
+}
+#r4:checked ~ .s1{
+    margin-left:-75% ;
+}
+
